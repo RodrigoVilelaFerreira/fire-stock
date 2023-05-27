@@ -12,7 +12,7 @@ import {
 export class ProductService {
   registerListRef: AngularFireList<any>;
   registerRef: AngularFireObject<any>;
-  constructor(private db: AngularFireDatabase) { }
+  constructor(private db: AngularFireDatabase) {}
     // Create
     createRegister(apt: Product) {
       return this.registerListRef.push({

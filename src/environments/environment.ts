@@ -6,6 +6,7 @@ export const environment = {
   production: false,
   apiKey: "AIzaSyDpTeAd91PQup-gykoDjIqgLBiM559Day4",
   authDomain: "fire-stock-be902.firebaseapp.com",
+  databaseURL: "https://fire-stock-be902-default-rtdb.firebaseio.com",
   projectId: "fire-stock-be902",
   storageBucket: "fire-stock-be902.appspot.com",
   messagingSenderId: "980325955167",
